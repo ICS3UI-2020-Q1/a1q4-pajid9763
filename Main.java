@@ -29,7 +29,7 @@ public class Main {
   int formula = (y2 - y1) / (x2 - x1);
 
   // tell the user their slope
-  System.out.println("The slope of your line would be " + formula);
+  System.out.println("The slope of your line would be " + formula + ".");
 
     
   }
