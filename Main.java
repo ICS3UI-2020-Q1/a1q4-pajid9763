@@ -14,19 +14,19 @@ public class Main {
 
   // ask the user for the first x coordinate
   System.out.println("Please enter in the x coordinate of the first point");
-  int x1 = input.nextInt();
+  double x1 = input.nextInt();
   // ask the user for the first y coordinate
   System.out.println("Please enter in the y coordinate of the first point");
-  int y1 = input.nextInt();
+  double y1 = input.nextInt();
   // ask the user for the second x coordinate
   System.out.println("Please enter in the x coordinate of the second point");
-  int x2 = input.nextInt();
+  double x2 = input.nextInt();
   // ask the user for the second y coordinate
   System.out.println("Please enter in the y coordinate of the second point");
-  int y2 = input.nextInt();
+  double y2 = input.nextInt();
 
   // formula for slope
-  int formula = (y2 - y1) / (x2 - x1);
+  double formula = (y2 - y1) / (x2 - x1);
 
   // tell the user their slope
   System.out.println("The slope of your line would be " + formula + ".");
