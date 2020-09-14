@@ -1,6 +1,6 @@
 import java.util.Scanner;
 /**
- *
+ * a program to find the slope of 4 coordinates
  * @author 
  */
 public class Main {
